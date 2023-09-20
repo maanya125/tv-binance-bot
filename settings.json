@@ -1,0 +1,20 @@
+{   
+    "whitelist" : "tradingview-1m",
+    "IP" : "0.0.0.0",
+    "PORT" : 80,
+    "exchange" : "binance",
+    "market":"futures",
+    "trade_on_exchange": true, 
+    "leverage" : 5,
+    "wallet_percent_per_order": 30,
+    "maxPercentPosition" : 60,
+
+    "api-key" : "",
+    "api-secret" : "",
+
+    "coins" : ["SOLUSDT", "AGIXUSDT", "OPUSDT", "FXSUSDT", "TRUUSDT", "CFXUSDT", "NEOUSDT", "INJUSDT"],
+
+    "discord" : true,
+    "discord_channel_webhook": ""
+}
+
