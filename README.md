@@ -10,6 +10,7 @@ You can change the following things in the settings.json file:
 <li>Discord channel webhook URL</li><br>
 
 <strong>TradingView Message JSON Format</strong><br>
+<code>
 {
 "whitelist" : "tradingview-1m", (this should match the password called whitelist in settings.json file)<br>
 "side" : "{{strategy.market_position}}", LONG or SHORT<br>
@@ -17,6 +18,7 @@ You can change the following things in the settings.json file:
 "indicator" : "HullEMA", (any random name for your indicator)<br>
 "comment": "{{strategy.order.comment}}" (if your strategy uses multiple trades as DCA then it will execute multiple trades in the same direction)<br>
 }<br>
+</code>
 
 <strong>Features:</strong><br>
 <li>Recieves signals from tradingview webhooks and executes trades based on them.</li>
